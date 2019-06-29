@@ -6,7 +6,7 @@ const bookmarks = [
         title: 'Bookmark One',
         url: 'https://www.great-website.com',
         description: 'A great website',
-        rating: '5'
+        rating: 5
     },
 
     {
@@ -14,7 +14,7 @@ const bookmarks = [
         title: 'Bookmark Two',
         url: 'https://www.nice-website.com',
         description: 'A nice website',
-        rating: '4'
+        rating: 4
     },
 
     {
@@ -22,7 +22,7 @@ const bookmarks = [
         title: 'Bookmark Three',
         url: 'https://www.lame-website.com',
         description: 'A lame website',
-        rating: '2'
+        rating: 2
     },
 ]
 

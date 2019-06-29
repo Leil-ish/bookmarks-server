@@ -42,3 +42,5 @@
 {"message":"Invalid rating 'invalid' supplied","level":"error"}
 {"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
 {"message":"Bookmark with id 4a52525d-f50c-4302-84ff-ebaffca11775 created","level":"info"}
+{"message":"Invalid rating '4' supplied","level":"error"}
+{"message":"Bookmark with id 210661c4-fff3-44a4-bc3b-359ba89bbf6f created","level":"info"}
