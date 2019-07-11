@@ -96,3 +96,4 @@ function makeMaliciousBookmark() {
     makeBookmarksArray,
     makeMaliciousBookmark,
   }
+  
