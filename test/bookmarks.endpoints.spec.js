@@ -199,7 +199,6 @@ describe('Bookmarks Endpoints', () => {
   describe('POST /bookmarks', () => {
     it(`responds with 400 missing 'title' if not supplied`, () => {
       const newBookmarkMissingTitle = {
-        // title: 'test-title',
         url: 'https://test.com',
         rating: 1,
       }
@@ -213,7 +212,6 @@ describe('Bookmarks Endpoints', () => {
     it(`responds with 400 missing 'url' if not supplied`, () => {
       const newBookmarkMissingUrl = {
         title: 'test-title',
-        // url: 'https://test.com',
         rating: 1,
       }
       return supertest(app)
@@ -227,7 +225,6 @@ describe('Bookmarks Endpoints', () => {
       const newBookmarkMissingRating = {
         title: 'test-title',
         url: 'https://test.com',
-        // rating: 1,
       }
       return supertest(app)
         .post(`/bookmarks`)
