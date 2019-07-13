@@ -3,72 +3,72 @@ function makeBookmarksArray() {
         {
             id: 1,
             title: 'GitHub',
-            rating: 5,
             url: 'github.com',
             description: 'code',
+            rating: 5,
         },
         {
             id: 2,
             title: 'Twitter',
-            rating: 5,
             url: 'twitter.com',
-            description: 'tweet'
+            description: 'tweet',
+            rating: 5,
         },
         {
             id: 3,
             title: 'MDN', 
-            rating: 5,
             url: 'developer.mozilla.org',
-            description: 'code'
+            description: 'code',
+            rating: 5,
         },
         {
             id: 4,
             title: 'Gmail', 
-            rating: 5,
             url: 'mail.google.com',
-            description: 'email'
+            description: 'email',
+            rating: 5,
         },
         {
             id: 5,
             title: 'Postgres', 
-            rating: 5,
             url: 'postgresql.org',
-            description: 'code'
+            description: 'code',
+            rating: 5,
         },
         {
             id: 6,
             title: 'Google', 
-            rating: 5,
             url: 'google.com',
-            description: 'search'
+            description: 'search',
+            rating: 5,
         },
         {
             id: 7,
             title: 'xkcd', 
-            rating: 5,
             url: 'xkcd.com',
-            description: 'laugh'
+            description: 'laugh',
+            rating: 5,
         },
         {
             id: 8,
             title: 'Bloc', 
-            rating: 5,
             url: 'bloc.thinkful.com',
-            description: 'code'
+            description: 'code',
+            rating: 5,
         },
         {
             id: 9,
-            title: 'Facebook', 
-            rating: 5,
+            title: 'Facebook',
             url: 'facebook.com',
-            description: 'despair'
+            description: 'despair', 
+            rating: 5,
         },
         {
             id: 10,
             title: 'Portfolio', 
-            rating: 5,
             url: 'leilaanderson.dev',
             description: 'display',
+            rating: 5,
         },
       ];
 }
